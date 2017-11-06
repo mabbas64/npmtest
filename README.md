@@ -9,3 +9,16 @@ Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
 ```npm-windows-upgrade -p -v latest```
 
 A list of versions matched between NPM and NODE (https://nodejs.org/en/download/releases/) - but you will need to download NODE INSTALLER and run that to update node (https://nodejs.org/en/)
+
+;; continuing in powershell:
+
+```
+npm install -g create-react-native-app
+create-react-native-app SmoothTodo
+```
+
+;; after the project is created:
+```
+cd SmoothTodo
+yarn start
+```

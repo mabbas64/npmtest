@@ -14,6 +14,9 @@ A list of versions matched between NPM and NODE (https://nodejs.org/en/download/
 
 ```
 npm install -g create-react-native-app
+```
+; Lets create our project. I'm naming mine 'SmoothTodo'
+```
 create-react-native-app SmoothTodo
 ```
 

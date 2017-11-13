@@ -25,3 +25,16 @@ create-react-native-app SmoothTodo
 cd SmoothTodo
 yarn start
 ```
+
+**Navigation between screens**
+
+;;install the react-navigation library
+```npm install --save react-navigation```
+
+Then use StackNavigator to create the screens like:
+```
+const App = StackNavigator({
+  Home: { screen: HomeScreen },
+  Profile: { screen: ProfileScreen },
+});
+```
